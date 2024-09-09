@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e5fbbe6137dc77bcd5b6646b5dd75b52",
+    "content-hash": "74170ddfd45fbf949a78e0ae14c32e07",
     "packages": [
         {
             "name": "brick/math",
@@ -2317,6 +2317,59 @@
                 }
             ],
             "time": "2024-09-05T15:25:50+00:00"
+        },
+        {
+            "name": "pendonl/laravel-fontawesome",
+            "version": "1.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/PendoNL/laravel-fontawesome.git",
+                "reference": "13fe35b146ebd157d2e881ef2e18fdfaacfa71c1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/PendoNL/laravel-fontawesome/zipball/13fe35b146ebd157d2e881ef2e18fdfaacfa71c1",
+                "reference": "13fe35b146ebd157d2e881ef2e18fdfaacfa71c1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~5.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "PendoNL\\LaravelFontAwesome\\LaravelFontAwesomeServiceProvider"
+                    ],
+                    "aliases": {
+                        "FontAwesome": "PendoNL\\LaravelFontAwesome\\Facade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "PendoNL\\LaravelFontAwesome\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Joshua de Gier",
+                    "email": "info@pendo.nl"
+                }
+            ],
+            "description": "Laravel helper for FontAwesome icons",
+            "support": {
+                "issues": "https://github.com/PendoNL/laravel-fontawesome/issues",
+                "source": "https://github.com/PendoNL/laravel-fontawesome/tree/master"
+            },
+            "time": "2018-03-01T14:11:36+00:00"
         },
         {
             "name": "phpoption/phpoption",
