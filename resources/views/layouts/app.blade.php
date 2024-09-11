@@ -8,16 +8,17 @@
     <title>Internastek</title>
 
     @vite('resources/css/app.css')
+    @yield('style')
 </head>
 
 <body>
-    <div class="min-h-dvh">
+    <div class="h-screen">
         <!-- Include the header component -->
         @include('components.header')
     
-        <main>
-            @yield('content') <!-- Main content goes here -->
-        </main>
+        <div class="h-full pt-16">
+            @yield('content')
+        </div>
     </div>
 </body>
 

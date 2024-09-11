@@ -1,4 +1,4 @@
-<header class="bg-gray-800 text-white py-4 px-8">
+<header class="bg-gray-800 text-white py-4 px-8 h-16 absolute right-0 top-0 left-0">
     <nav class="container mx-auto flex justify-between items-center">
         <div class="text-xl font-bold">
             <a href="/" class="hover:text-gray-400">Internastek</a>

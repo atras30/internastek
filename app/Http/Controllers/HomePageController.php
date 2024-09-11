@@ -9,6 +9,12 @@ class HomePageController extends Controller
     public function home() {
         return view('pages.landing-page.landing-page');
     }
+
+    public function openingHours() {
+        $image1 = asset("assets/images/opening-hours/background-1.jpeg");
+
+        return view('pages.landing-page.opening-hours', compact("image1"));
+    }
     
     public function partnerships(Request $request) {
         $logo = [
@@ -23,7 +29,7 @@ class HomePageController extends Controller
             "setia-multi-sarana" => asset('assets/images/partnerships/setia-multi-sarana.png')
         ];
         
-        return view('pages.landing-page.parnerships', compact("logo"));
+        return view('pages.landing-page.partnerships', compact("logo"));
     }
 
     public function review(Request $request) {
