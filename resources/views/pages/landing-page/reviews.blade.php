@@ -12,12 +12,12 @@
         </button>
     </div>
 
-    <div class="container mx-auto px-12">
+    <div class="container mx-auto px-12 pb-4">
         <div class="grid md:gap-12 gap-8 lg:grid-cols-3 sm:grid-cols-2">
             <div class="flex flex-col justify-between">
                 <div>
                     <div>
-                        @fa('quote-left', ['style' => 'color: #57e4ff', 'class' => 'text-2xl'])
+                        <i class="fa-solid fa-quote-left text-2xl text-[#57e4ff]"></i>
                     </div>
                     <p class="text-white">
                         Terimakasih internastek udah ngebantu bgt disaat lg mendesak bgt krn laptop gabisa nyala malam2,
@@ -32,7 +32,7 @@
             <div class="flex flex-col justify-between">
                 <div>
                     <div>
-                        @fa('quote-left', ['style' => 'color: #57e4ff', 'class' => 'text-2xl'])
+                        <i class="fa-solid fa-quote-left text-2xl text-[#57e4ff]"></i>
                     </div>
                     <div class="text-white flex flex-col gap-3">
                         <p>Pelayanannya ramah, baik, informatif dan cukup membantu setiap jawabannya.</p>
@@ -46,7 +46,7 @@
             <div class="flex flex-col justify-between">
                 <div>
                     <div>
-                        @fa('quote-left', ['style' => 'color: #57e4ff', 'class' => 'text-2xl'])
+                        <i class="fa-solid fa-quote-left text-2xl text-[#57e4ff]"></i>
                     </div>
                     <p class="text-white">
                         Tempat service laptop yg dapat dipercaya, pelayanan ramah dan memuaskan, terutama dengan brand Axioo

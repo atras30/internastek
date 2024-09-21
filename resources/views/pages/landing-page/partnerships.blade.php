@@ -1,9 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="fixed top-0 right-0 left-0 bottom-0 z-[-1]"
+    <div class="fixed top-0 right-0 left-0 bottom-0 z-[-1]"
         style="background-image: linear-gradient(to top right, #00c1ca, #0a1c46);"></div>
-    <div class="bg-gradient-to-br from-[#00c1ca] to-[#0a1c46] h-full pt-8">
+        
+    <div class="h-full pt-8">
         <p class="text-center text-white  text-5xl mb-12">Partnerships</p>
 
         <div class="container mx-auto">
