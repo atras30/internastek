@@ -8,13 +8,7 @@
                 <a href="{{ route('home') }}" class="hover:text-gray-400">Home</a>
             </li>
             <li>
-                <a href="{{ route('aboutUs') }}" class="hover:text-gray-400">About Us</a>
-            </li>
-            <li>
-                <a href="{{ route('ourService') }}" class="hover:text-gray-400">Our Service</a>
-            </li>
-            <li>
-                <a href="{{ route('products') }}" class="hover:text-gray-400">Products</a>
+                <a href="{{ route('about') }}"  class="hover:text-gray-400">About Us</a>
             </li>
             <li>
                 <a href="{{ route('partnerships') }}" class="hover:text-gray-400">Partnership</a>
