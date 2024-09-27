@@ -13,25 +13,6 @@ class HomePageController extends Controller
         ];
         return view('pages.landing-page.landing-page', compact("logo"));
     }
-
-    public function contactUs() {
-        $image1 = asset("assets/images/contact-us/background.png");
-
-        return view('pages.landing-page.contact-us', compact("image1"));
-    }
-
-    public function aboutUs() {
-        return "About Us";
-    }
-    
-    public function ourService() {
-        return "our Service Page";
-    }
-    
-    public function products() {
-        return "Products page";
-    }
-
     public function contactUs() {
         $image1 = asset("assets/images/contact-us/background.png");
 

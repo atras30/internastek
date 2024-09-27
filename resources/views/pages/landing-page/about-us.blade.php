@@ -18,7 +18,7 @@
                             membangun relasi dengan berbagai mitra.
                         </p>
                     </div>
-                    <div class="pt-16 lg:pt-[330px] w-full">
+                    <div class="pt-16 lg:pt-[400px] w-full">
                         <h1 class="px-6 lg:px-20 text-[#0a1a44] text-[48px] lg:text-[64px]">Our Services</h1>
                         <div class="bg-[#fcc018] ml-6 lg:mr-40 w-20 lg:w-40 h-2"></div>
                     </div>
@@ -94,38 +94,38 @@
                 <div class="pt-10 lg:pt-20 grid grid-cols-2 md:grid-cols-6 lg:gap-8 `">
 
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['adaptor'] }}" alt="Adaptor" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">Adaptor</h3>
+                        <img src="{{ $logo['adaptor'] }}" alt="Adaptor" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">Adaptor</h3>
                     </div>
 
 
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['battery'] }}" alt="Baterai" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">Baterai</h3>
+                        <img src="{{ $logo['battery'] }}" alt="Baterai" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">Baterai</h3>
                     </div>
 
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['keyboard'] }}" alt="Keyboard" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">Keyboard</h3>
+                        <img src="{{ $logo['keyboard'] }}" alt="Keyboard" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">Keyboard</h3>
                     </div>
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['panelLcd'] }}" alt="Panel LCD" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">LED/LCD Panel </h3>
+                        <img src="{{ $logo['panelLcd'] }}" alt="Panel LCD" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">LED/LCD Panel </h3>
                     </div>
 
 
 
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['hdd'] }}" alt="HDD" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">Harddisk / SSD</h3>
+                        <img src="{{ $logo['hdd'] }}" alt="HDD" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">Harddisk / SSD</h3>
                     </div>
 
 
                 
 
                     <div class="flex flex-col items-center">
-                        <img src="{{ $logo['mouse'] }}" alt="Mouse" class="h-16 mb-4 rounded-full">
-                        <h3 class="text-[20px] lg:text-[18px] font-bold">Mouse & Aksesoris</h3>
+                        <img src="{{ $logo['mouse'] }}" alt="Mouse" class="h-16 pt-4 mb-4 rounded-full">
+                        <h3 class="text-[16px] lg:text-[18px] font-bold">Mouse & Aksesoris</h3>
                     </div>
 
 
