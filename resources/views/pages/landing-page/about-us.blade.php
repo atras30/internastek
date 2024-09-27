@@ -91,7 +91,7 @@
                 <h1 class="px-6 lg:px-20 text-[#0a1a44] text-[48px] lg:text-[64px]">Products</h1>
                 <div class="bg-[#fcc018] ml-6 lg:mr-40 w-20 lg:w-40 h-2"></div>
 
-                <div class="pt-10 lg:pt-20 grid grid-cols-2 md:grid-cols-6 lg:gap-8 ">
+                <div class="pt-10 lg:pt-20 grid grid-cols-2 md:grid-cols-6 lg:gap-8 `">
 
                     <div class="flex flex-col items-center">
                         <img src="{{ $logo['adaptor'] }}" alt="Adaptor" class="h-16 mb-4 rounded-full">
